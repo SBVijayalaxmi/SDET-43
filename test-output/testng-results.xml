@@ -1,56 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite name="Default suite" duration-ms="36" started-at="2022-11-24T12:06:19 IST" finished-at="2022-11-24T12:06:19 IST">
-=======
-  <suite started-at="2022-11-23T12:11:54 IST" name="Suite" finished-at="2022-11-23T12:11:54 IST" duration-ms="41">
->>>>>>> branch 'master' of https://github.com/SBVijayalaxmi/SDET-43.git
+  <suite name="Suite" duration-ms="41" started-at="2022-11-24T12:59:52 IST" finished-at="2022-11-24T12:59:52 IST">
     <groups>
+      <group name="smoke">
+        <method signature="Script1Test.update()[pri:0, instance:PracticePackage.Script1Test@631330c]" name="update" class="PracticePackage.Script1Test"/>
+        <method signature="Script2Test.test1()[pri:0, instance:PracticePackage.Script2Test@9a7504c]" name="test1" class="PracticePackage.Script2Test"/>
+      </group> <!-- smoke -->
     </groups>
-<<<<<<< HEAD
-    <test name="Default test" duration-ms="36" started-at="2022-11-24T12:06:19 IST" finished-at="2022-11-24T12:06:19 IST">
-      <class name="PracticePackage.ReadDataFromCmdLineTest">
-        <test-method status="PASS" signature="readDataFromCmdLine()[pri:0, instance:PracticePackage.ReadDataFromCmdLineTest@262b2c86]" name="readDataFromCmdLine" duration-ms="6" started-at="2022-11-24T12:06:19 IST" finished-at="2022-11-24T12:06:19 IST">
-=======
-    <test started-at="2022-11-23T12:11:54 IST" name="Test" finished-at="2022-11-23T12:11:54 IST" duration-ms="41">
+    <test name="Test" duration-ms="41" started-at="2022-11-24T12:59:52 IST" finished-at="2022-11-24T12:59:52 IST">
       <class name="PracticePackage.Script2Test">
-        <test-method signature="simple1()[pri:0, instance:PracticePackage.Script2Test@2b91004a]" started-at="2022-11-23T12:11:54 IST" name="simple1" finished-at="2022-11-23T12:11:54 IST" duration-ms="1" status="PASS">
->>>>>>> branch 'master' of https://github.com/SBVijayalaxmi/SDET-43.git
+        <test-method status="PASS" signature="test1()[pri:0, instance:PracticePackage.Script2Test@9a7504c]" name="test1" duration-ms="1" started-at="2022-11-24T12:59:52 IST" finished-at="2022-11-24T12:59:52 IST">
           <reporter-output>
           </reporter-output>
-<<<<<<< HEAD
-        </test-method> <!-- readDataFromCmdLine -->
-      </class> <!-- PracticePackage.ReadDataFromCmdLineTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
-=======
-        </test-method> <!-- simple1 -->
-        <test-method signature="simple2()[pri:0, instance:PracticePackage.Script2Test@2b91004a]" started-at="2022-11-23T12:11:54 IST" name="simple2" finished-at="2022-11-23T12:11:54 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- simple2 -->
-        <test-method signature="simple3()[pri:0, instance:PracticePackage.Script2Test@2b91004a]" started-at="2022-11-23T12:11:54 IST" name="simple3" finished-at="2022-11-23T12:11:54 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- simple3 -->
+        </test-method> <!-- test1 -->
       </class> <!-- PracticePackage.Script2Test -->
       <class name="PracticePackage.Script1Test">
-        <test-method signature="create()[pri:0, instance:PracticePackage.Script1Test@5fbdfdcf]" started-at="2022-11-23T12:11:54 IST" name="create" finished-at="2022-11-23T12:11:54 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- create -->
-        <test-method signature="delete()[pri:0, instance:PracticePackage.Script1Test@5fbdfdcf]" started-at="2022-11-23T12:11:54 IST" name="delete" finished-at="2022-11-23T12:11:54 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- delete -->
-        <test-method signature="update()[pri:0, instance:PracticePackage.Script1Test@5fbdfdcf]" started-at="2022-11-23T12:11:54 IST" name="update" finished-at="2022-11-23T12:11:54 IST" duration-ms="1" status="PASS">
+        <test-method status="PASS" signature="update()[pri:0, instance:PracticePackage.Script1Test@631330c]" name="update" duration-ms="6" started-at="2022-11-24T12:59:52 IST" finished-at="2022-11-24T12:59:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- update -->
       </class> <!-- PracticePackage.Script1Test -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
->>>>>>> branch 'master' of https://github.com/SBVijayalaxmi/SDET-43.git
 </testng-results>

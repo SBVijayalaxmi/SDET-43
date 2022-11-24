@@ -10,7 +10,7 @@ public class Script1Test {
 		System.out.println("-- created --");
 	}
 	
-	@Test
+	@Test(groups = "smoke")
 	public void update()
 	{
 		System.out.println("-- updated --");
