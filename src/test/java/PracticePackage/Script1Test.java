@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class Script1Test {
 
-	@Test(groups = "smoke")
+	@Test
 	public void create()
 	{
 		System.out.println("-- created --");

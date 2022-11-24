@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class Script3Test {
 	
-	@Test(groups = "regression")
+	@Test
 	public void sample1()
 	{
 		System.out.println("-- sample1 --");
